@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/ascendente.css">
+    <script defer src="ascendente.js" ></script>
+    <title>Calculadora de Ascendente</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Ascendente</h1>
+        <p>Introduce tu signo solar y hora de nacimiento:</p>
+        <label for="signo">Signo Zodiacal:</label>
+        <select id="signo" class="signo">
+            <option value="aries">Aries</option>
+            <option value="tauro">Tauro</option>
+            <option value="geminis">Géminis</option>
+            <option value="cancer">Cáncer</option>
+            <option value="cancer">Leo</option>
+            <option value="cancer">Virgo</option>
+            <option value="cancer">Libra</option>
+            <option value="cancer">Escorpio</option>
+            <option value="cancer">Sagitario</option>
+            <option value="cancer">Capricornio</option>
+            <option value="cancer">Acuario</option>
+            <option value="cancer">Piscis</option>
+        </select>
+        <label class= "signo" for="hora">Hora de Nacimiento:</label>
+        <input type="time" id="hora" class= "signo" required>
+        <button onclick="calcularAscendente()" class= "signo" >Calcular Ascendente</button>
+        <h3 id="resultado"></h3>
+        
+    </div>
+</body>
+</html>
