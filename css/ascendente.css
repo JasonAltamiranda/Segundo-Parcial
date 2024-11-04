@@ -1,7 +1,7 @@
 
 body { font-family: Arial, sans-serif; 
 }
-.container { background-image: url(imagenes/calculadora.png);
+.container { background-image: url(/calculadora.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
